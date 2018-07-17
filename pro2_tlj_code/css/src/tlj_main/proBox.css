@@ -1,0 +1,44 @@
+/* proBox.css */
+
+/* #proBox =================================== */
+#proBox {
+  margin-bottom: 160px;
+  width: 100%; height: auto;}
+  
+  /* pro_u ------------- */
+  .pro_u {
+    padding-bottom: 10px;
+    width: 100%; height: 350px;}
+
+    .pro_u > li {
+      float: left; margin-right: 20px;
+      width: 24.099999%; height: 100%;}
+    .pro_u > li:nth-child(1) {background-color: #55a;}
+    .pro_u > li:nth-child(2) {background-color: #5fa;}
+    .pro_u > li:nth-child(3) {background-color: #c5a;}
+    .pro_u > li:nth-child(4) {margin-right: 0; background-color: #0ca;}
+
+      .pro_u > li > a {
+        display: block; width: 100%; height: 100%;
+        line-height: 350px; text-align: center;
+        font-size: 2.5rem; font-weight: bold; color: #fff;}
+
+  /* pro_d ------------- */
+  .pro_d {
+    padding-top: 10px;
+    width: 100%; height: 320px;}
+
+    .pro_d > li {
+      float: left; margin-right: 20px;
+      width: 19.038999%; height: 100%;}
+    .pro_d > li:nth-child(1) {background-color: #5fa;}
+    .pro_d > li:nth-child(2) {background-color: #55a;}
+    .pro_d > li:nth-child(3) {background-color: #05a;}
+    .pro_d > li:nth-child(4) {background-color: #cfa;}
+    .pro_d > li:nth-child(5) {margin-right: 0; background-color: #0ca;}
+
+      .pro_d > li > a {
+        display: block; width: 100%; height: 100%;
+        line-height: 320px; text-align: center;
+        font-size: 2.5rem; font-weight: bold; color: #fff;}
+      .pro_d > li:last-child > a {padding-top: 114px; line-height: 120%;} 
