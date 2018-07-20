@@ -41,46 +41,101 @@
   <!-- layout -->
   <div id="wrap">
   	<header id="headBox">
-      <h1 class="logo">
+      <h1 class="hidden_wrap" title="신선함이 가득한 베이커리 뚜레쥬르입니다">
         <a href="#">
-          <span class="hidden">신선함이 가득한 베이커리 뚜레쥬르입니다</span>
+          <span>tous les jours</span>
         </a>
       </h1>
-      <nav class="gnb">
-        <ul>
-          <li><a href="#"><span>브랜드 스토리</span></a></li>
-          <li><a href="#"><span>제품안내</span></a></li>
-          <li><a href="#"><span>이벤트&멤버십</span></a></li>
-          <li><a href="#"><span>매장안내</span></a></li>
-          <li><a href="#"><span>창업안내</span></a></li>
-        </ul>
-      </nav>
-      <div class="h_btn_wrap">
-        <div class="search_btn">
-          <a href="#">
-            <i class="fas fa-search"></i>
-            <span class="hidden">검색하기</span>
-          </a>
-        </div>
-        <div class="menu_btn">
-          <a href="#">
-            <i class="fas fa-bars"></i>
+
+      <div id="gnbWrap">
+
+        <div class="gnb_btn">
+          <button type="button" class="active">
+            <i class="menu_icon"></i>
             <span class="hidden">메뉴보기</span>
-          </a>
+          </button>
         </div>
+
+        <nav id="gnb">
+          <h2 class="hidden">주메뉴</h2>
+
+          <ul>
+            <li>
+              <a href="#">브랜드 스토리</a>
+              <ol class="depth_2 depth_2_01">
+                <li><a href="#">브랜드 스토리</a></li>
+                <li><a href="#">뚜레쥬르 광고</a></li>
+                <li><a href="#">뚜레쥬르 재료 이야기</a></li>
+                <li><a href="#">글로벌 뚜레쥬르</a></li>
+                <li><a href="#">라뜰리에 뚜레쥬르</a></li>
+                <li><a href="#">뚜레쥬르 착한빵</a></li>
+                <li><a href="#">뉴스&공지사항</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">제품안내</a>
+              <ol class="depth_2 depth_2_02">
+                <li><a href="#">신제품</a></li>
+                <li><a href="#">빵</a></li>
+                <li><a href="#">케이크</a></li>
+                <li><a href="#">샌드위치</a></li>
+                <li><a href="#">샐러드</a></li>
+                <li><a href="#">수프</a></li>
+                <li><a href="#">음료</a></li>
+                <li><a href="#">기타</a></li>
+                <li><a href="#">캐릭터 제품</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">이벤트&멤버십</a>
+              <ol class="depth_2 depth_2_03">
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">이벤트 당첨자</a></li>
+                <li><a href="#">CJ ONE 멤버십</a></li>
+                <li><a href="#">제휴혜택</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">매장안내</a>
+              <ol class="depth_2 depth_2_04">
+                <li><a href="#">매장안내</a></li>
+                <li><a href="#">고객센터</a></li>
+              </ol>
+            </li>
+
+            <li>
+              <a href="#">창업안내</a>
+              <ol class="depth_2 depth_2_05">
+                <li><a href="#">신 모델 소개</a></li>
+                <li><a href="#">창업 성공 스토리</a></li>
+                <li><a href="#">창업 준비하기</a></li>
+                <li><a href="#">창업 설명회</a></li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header><!-- // #headBox -->
 
-  	<article id="playBox"></article><!-- // #playBox -->
+  	<article id="playBox">
+      <h2 class="hidden">재료부터 다른 건강한 베이커리 뚜레쥬르의 영상입니다.</h2>
+     <video autoplay="autoplay" muted="muted" loop="loop">
+       <source src="../img/tlj_main_web_img/playBox/tljMaterial.mp4" type="video/mp4">
+     </video> 
+    </article><!-- // #playBox -->
 
   	<section id="quickBox">
+      <h2 class="hidden">quick menu</h2>
       <div class="q_location"><a href="#"><span>매장찾기</span></a></div> 
       <div class="q_benefit"><a href="#"><span>제휴혜택</span></a></div> 
       <div class="q_franchise"><a href="#"><span>창업안내</span></a></div> 
     </section><!-- // #quickBox -->
 
   	<article id="shopBox">
-      <h2 class="hidden">뚜레쥬르 온라인 쇼핑몰</h2>
+      <h2 class="hidden">뚜레쥬르 온라인 쇼핑몰 바로가기</h2>
       <a href="#">
        <dl class="clearfix">
           <dt>쇼핑몰 & 케이크배달</dt>
@@ -90,6 +145,7 @@
     </article><!-- // #shopBox -->
 
   	<section id="proBox" class="clearfix">
+      <h2 class="hidden">뚜레쥬르 제품안내</h2>
       <ul class="pro_u">
         <li><a href="#"><span>신제품</span></a></li>
         <li><a href="#"><span>빵</span></a></li>
@@ -106,22 +162,25 @@
     </section><!-- // #proBox -->
 
     <article id="cjBox">
-      <ul class="foodvill hidden_wrap">
-        <li><a href="#"><span>foodvill_01</span></a></li>
-        <li><a href="#"><span>foodvill_02</span></a></li>
-        <li><a href="#"><span>foodvill_03</span></a></li>
-        <li><a href="#"><span>foodvill_04</span></a></li>
-        <li><a href="#"><span>foodvill_05</span></a></li>
-        <li><a href="#"><span>foodvill_06</span></a></li>
-        <li><a href="#"><span>foodvill_07</span></a></li>
-        <li><a href="#"><span>foodvill_08</span></a></li>
-        <li><a href="#"><span>foodvill_09</span></a></li>
-        <li><a href="#"><span>foodvill_10</span></a></li>
+      <h2 class="hidden">familly site 바로가기</h2>
+      <ul class="family hidden_wrap">
+        <li><a href="#"><span>씨제이 푸드빌</span></a></li>
+        <li><a href="#"><span>빕스</span></a></li>
+        <li><a href="#"><span>비비고</span></a></li>
+        <li><a href="#"><span>더 플레이스</span></a></li>
+        <li><a href="#"><span>제일제면소</span></a></li>
+        <li><a href="#"><span>빕스버거</span></a></li>
+        <li><a href="#"><span>계절밥상</span></a></li>
+        <li><a href="#"><span>엔 그릴</span></a></li>
+        <li><a href="#"><span>쥬스 솔루션</span></a></li>
+        <li><a href="#"><span>부산타워</span></a></li>
       </ul>
     </article><!-- // #cjBox -->
 
+<!--     <div class="top_button"><a href="#">top</a></div> -->
+
   	<footer id="footBox">
-      <h2 class="hidden"></h2>
+      <h2 class="hidden">회사소개</h2>
       <ul class="fnb clearfix">
         <li><a href="#"><span>회사소개</span></a></li>
         <li><a href="#"><span>채용안내</span></a></li>
@@ -160,6 +219,32 @@
   <!-- bootstrap -->
   <!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
   <!-- myJs -->
-  <script src="../js/src/tlj_main.js"></script>
+  <script src="../js/src/tlj_main_headBox.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

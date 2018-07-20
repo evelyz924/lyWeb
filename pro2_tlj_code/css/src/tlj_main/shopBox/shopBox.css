@@ -2,7 +2,6 @@
 
 /* #shopBox ================================== */
 #shopBox {
-  position: relative;
   margin: 100px 0;
   width: 100%; height: 400px; background-color: #aaa;}
 
@@ -16,9 +15,8 @@
       width: 100%; height: 100%;
       text-align: center;
       background-color: #eee;
-      background-image: url(../../../img/tlj_main_web_img/shopBox/shop_logo.png);
+      background-image: url(../../../../img/tlj_main_web_img/shopBox/shop_logo.png);
       background-repeat: no-repeat;
-      background-size: normal;
       background-position: center;}
       #shopBox dt {font-size: 1.8rem; color: #074c43; }
       #shopBox dd {margin-top: 160px; font-size: 1.5rem; color: #074c43;}

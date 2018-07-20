@@ -3,7 +3,7 @@
 /* #footBox ================================== */
 #footBox {
   box-sizing: border-box; padding: 30px 200px;
-  widows: 100%; height: auto; background-color: #333;}
+  width: 100%; height: auto; background-color: #333;}
 
   /* fnb ----------- */
   .fnb {width: 100%; height: auto;}
