@@ -2,6 +2,24 @@
 
 @media screen and (min-width: 1367px) {
 
+/* #proBox =================================== */
+      /*#proBox a {font-size: 2rem;}*/
 
+  /* pro_01 ------------- */
+  .pro_01 {height: 18.229166vw; /* 350/1920*100 */}
+
+      .pro_01 > li > a {padding-top: 7.291666vw; /* 140/1920*100 */}
+
+
+  /* pro_02 ------------- */
+  .pro_02 {height: 16.666666vw; /* 320/1920*100 */}
+
+      .pro_02 > li > a {padding-top: 6.770833vw; /* 130/1920*100*/}
+
+  /* pro_03 ------------- */
+  .pro_03 {height: 16.666666vw; /* 320/1920*100 */}
+
+      .pro_03 > li:nth-child(1) > a {padding-top: 6.770833vw; /* 130/1920*100*/}
+      .pro_03 > li:nth-child(2) > a {padding-top: 6.25vw; /* 120/1920*100*/}
 
 }

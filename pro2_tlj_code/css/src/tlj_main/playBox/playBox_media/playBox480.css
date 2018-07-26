@@ -1,0 +1,8 @@
+/* playBox480.css */
+
+@media screen and (max-width: 480px) {
+
+  /* .add_banner 영역 ---- */
+  .add_banner {display: block;}
+  
+}

@@ -1,7 +1,47 @@
 /* headBox1366.css */
 
-@media screen and (min-width: 769px) and (max-width: 1366px) {
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
 
+/* #headBox ================================== */
+#headBox {height: 50px;}
 
+#headBox:after {top: 50px;}
+
+#headBox.show:after {height: 280px;}
+
+  /* logo -----------------*/
+  h1 {
+    margin-left: 2.196193vw; /* 30/1366*100 */
+    width: 166px;}
+
+    /* gnb_btn ---- */
+      .gnb_btn {display: none;}
+
+    /* gnb ----------------- */
+    #gnb {
+      display: block;
+      margin-left: -20.497803vw; /* -280/1366*100 */
+      width: auto;}
+
+        #gnb > ul > li {
+          margin-right: 4.392386vw; /* 60/1366*100 */
+          width: 60px;}
+        #gnb > ul > li:nth-child(1) {width: 90px;}
+        #gnb > ul > li:nth-child(3) {width: 100px;}
+
+          #gnb > ul > li > a {
+            line-height: 50px;
+            font-size: 1rem;}
+
+            /* depth_2 ----- */
+              .depth_2 > li {padding-left: 0;}
+
+                .depth_2 > li > a {
+                  padding: 3px 5px 3px 4px;
+                  margin-bottom: 5px;
+                  font-size: 0.8rem;}
+
+                .depth_2 > li > a:hover:before,
+                .depth_2 > li > a:focus:before {height: 22px;}
 
 }

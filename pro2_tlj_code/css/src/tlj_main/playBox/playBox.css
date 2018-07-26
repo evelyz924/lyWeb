@@ -1,14 +1,40 @@
 /* playBox.css */
 
+.content_area{
+  position: relative; z-index: 200;
+  width: 100%; height:100%;}
+
 /* #playBox ================================== */
 #playBox {
-  margin-top: 46.865614%;
-  width: 100%; height: 0;}
+  /*margin-top: 46.865614%;*/
+  position: relative; z-index: -100;
+  width: 100%; height: 80%;}
 
   #playBox > video {
-    position: fixed; top: 0; left: 0;
+    display: none;
+    position: fixed; top: 50%; left: 50%;
     z-index: -100;
-    /*overflow-x: hidden;*/
-    /*position: absolute; top: 50%; left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
-    width: 100%; /*min-width: 100%;*/ height: auto; /*min-height: 80%;*/}
+    overflow: hidden;
+    width: auto; height: auto;
+    min-width:100%; min-height: 100%;
+    transform: translate(-50%, -50%);
+    }
+
+  /* .add_banner 영역 ---- */
+  .add_banner {
+    display: none;
+    position: fixed; top: 0; left: 0;
+    z-index: 50;
+    overflow: hidden;
+    width: 100%; height: 100%;}
+
+    .add_banner > li {
+      width: 100%; height: 100%;
+      background-image: url("../../../../../img/tlj_main_web_img/playBox/banner01.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 110%;}
+
+    /*#bannerBox li:nth-child(1) {}*/
+    /*#bannerBox li:nth-child(2) {}*/
+    /*#bannerBox li:nth-child(3) {}*/

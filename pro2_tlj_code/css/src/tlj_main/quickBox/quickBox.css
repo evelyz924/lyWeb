@@ -16,7 +16,6 @@
 
     #quickBox a {
       display: block;
-      position: relative;
       margin: auto;
       width: 90%; height: 100%;
       line-height: 200px; text-align: center;

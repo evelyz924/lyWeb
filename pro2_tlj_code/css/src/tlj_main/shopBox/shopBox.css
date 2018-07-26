@@ -2,8 +2,8 @@
 
 /* #shopBox ================================== */
 #shopBox {
-  margin: 100px 0;
-  width: 100%; height: 400px; background-color: #aaa;}
+  padding: 100px 0;
+  width: 100%; height: 400px; background-color: #fff;}
 
   #shopBox > a {
     display: block;
@@ -14,7 +14,6 @@
       margin: auto;
       width: 100%; height: 100%;
       text-align: center;
-      background-color: #eee;
       background-image: url(../../../../img/tlj_main_web_img/shopBox/shop_logo.png);
       background-repeat: no-repeat;
       background-position: center;}

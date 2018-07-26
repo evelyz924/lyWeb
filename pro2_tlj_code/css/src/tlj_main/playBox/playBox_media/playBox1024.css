@@ -1,0 +1,9 @@
+/* playBox1024.css */
+/* 동영상 재생 안함 사진 대체 */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /* .add_banner 영역 ---- */
+  .add_banner {display: block;}
+
+}

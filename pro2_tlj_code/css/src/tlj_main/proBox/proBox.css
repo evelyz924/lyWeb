@@ -6,41 +6,88 @@
   padding-bottom: 160px;
   width: 100%; height: auto;
   background-color: #fff;}
+
+    #proBox li {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;}
+
+      #proBox a {
+        display: block;
+        box-sizing: border-box;
+        width: 100%; height: 100%;
+        text-align: center;
+        font-size: 2.5rem; font-weight: bold; color: #fff;
+        background-color: rgba(0,0,0,0.5);}
   
-  /* pro_u ------------- */
-  .pro_u {
-    padding-bottom: 10px;
-    width: 100%; height: 350px;}
+  /* pro_01 ------------- */
+  .pro_01 {width: 100%; height: 350px;}
+    
+    .pro_01 > li {
+      box-sizing: border-box; border: 1px solid #fff;
+      float: left;
+      width: calc(100% / 4); height: 100%;}
+    .pro_01 > li:nth-child(1) {background-image: url("../../../../img/tlj_main_web_img/proBox/new.jpg");}
+    .pro_01 > li:nth-child(2) {background-image: url("../../../../img/tlj_main_web_img/proBox/bread.jpg");}
+    .pro_01 > li:nth-child(3) {background-image: url("../../../../img/tlj_main_web_img/proBox/cake.jpg");}
+    .pro_01 > li:nth-child(4) {background-image: url("../../../../img/tlj_main_web_img/proBox/sand.jpg");}
 
-    .pro_u > li {
-      float: left; margin-right: 20px;
-      width: 24.099999%; height: 100%;}
-    .pro_u > li:nth-child(1) {background-color: #55a;}
-    .pro_u > li:nth-child(2) {background-color: #5fa;}
-    .pro_u > li:nth-child(3) {background-color: #c5a;}
-    .pro_u > li:nth-child(4) {margin-right: 0; background-color: #0ca;}
+      .pro_01 > li > a {padding-top: 140px;}
 
-      .pro_u > li > a {
-        display: block; width: 100%; height: 100%;
-        line-height: 350px; text-align: center;
-        font-size: 2.5rem; font-weight: bold; color: #fff;}
+  /* pro_02 ------------- */
+  .pro_02 {float:left; width: 60%; height: 320px;}
 
-  /* pro_d ------------- */
-  .pro_d {
-    padding-top: 10px;
-    width: 100%; height: 320px;}
+    .pro_02 > li {
+      box-sizing: border-box; border: 1px solid #fff;
+      float: left;
+      width: calc(100% / 3); height: 100%;}
+    .pro_02 > li:nth-child(1) {background-image: url("../../../../img/tlj_main_web_img/proBox/salad.jpg");}
+    .pro_02 > li:nth-child(2) {background-image: url("../../../../img/tlj_main_web_img/proBox/soup.jpg");}
+    .pro_02 > li:nth-child(3) {background-image: url("../../../../img/tlj_main_web_img/proBox/drink.jpg");}
 
-    .pro_d > li {
-      float: left; margin-right: 20px;
-      width: 19.038999%; height: 100%;}
-    .pro_d > li:nth-child(1) {background-color: #5fa;}
-    .pro_d > li:nth-child(2) {background-color: #55a;}
-    .pro_d > li:nth-child(3) {background-color: #05a;}
-    .pro_d > li:nth-child(4) {background-color: #cfa;}
-    .pro_d > li:nth-child(5) {margin-right: 0; background-color: #0ca;}
+      .pro_02 > li > a {padding-top: 130px;}
 
-      .pro_d > li > a {
-        display: block; width: 100%; height: 100%;
-        line-height: 320px; text-align: center;
-        font-size: 2.5rem; font-weight: bold; color: #fff;}
-      .pro_d > li:last-child > a {padding-top: 114px; line-height: 120%;} 
+
+  /* pro_03 ------------- */
+  .pro_03 {float:left; width: 40%; height: 320px;}
+
+    .pro_03 > li {
+      box-sizing: border-box; border: 1px solid #fff;
+      display: block; width: 100%; height: 100%;
+      float: left;
+      width: calc(100% / 2); height: 100%;}
+
+    .pro_03 > li:nth-child(1) {background-image: url("../../../../img/tlj_main_web_img/proBox/others.jpg");}
+    .pro_03 > li:nth-child(2) {background-image: url("../../../../img/tlj_main_web_img/proBox/character.jpg");}
+
+      .pro_03 > li:nth-child(1) > a {padding-top: 130px;}
+      .pro_03 > li:nth-child(2) > a {padding-top: 120px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

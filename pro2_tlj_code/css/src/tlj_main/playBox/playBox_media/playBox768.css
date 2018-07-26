@@ -1,0 +1,8 @@
+/* playBox768.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+  /* .add_banner 영역 ---- */
+  .add_banner {display: block;}
+
+}

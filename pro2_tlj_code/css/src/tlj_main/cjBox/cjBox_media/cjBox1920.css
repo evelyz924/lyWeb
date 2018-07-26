@@ -1,0 +1,12 @@
+/* cjBox1920.css */
+
+@media screen and (min-width: 1367px) {
+
+/* #cjBox ==================================== */
+#cjBox {padding: 10px 5.208333vw; /* 100/1920*100 */}
+
+    .family > li {margin-right: 1.041666vw; /* 20/1920*100 */}
+
+    .family > li:nth-child(2)  {width: 88px;}
+
+}

@@ -2,6 +2,42 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+/* 769~1366일때 적용해본 모바일버전 메뉴버튼 클릭시 gnb 참고*/
+  /* gnb ----------------- */
+/*  #gnb {top: 70px; right: 0; left:auto; margin-left:none;}
+  #gnb > ul > li {float: none;}
+*/
+
+/* #headBox ================================== */
+#headBox {height: 50px;}
+
+#headBox:after {display: none;}
+
+#headBox.show:after {height: 0;}
+
+  /* logo -----------------*/
+  h1 {
+    position: absolute; top: 0; left: 50%; margin-left: -90px;
+    width: 180px;}
+
+    /* gnb ----------------- */
+    #gnb {
+      display: none;
+      top: 50px; right: 0; left:auto; margin-left:none;
+      width: 40%; height: auto; background-color: rgba(7,76,67,0.9);}
+
+      #gnb > ul {
+        width: 100%; height: auto;}
+
+        #gnb > ul > li {
+          float: none;
+          margin-right: 0;
+          width: 100%;
+          padding-left: 20px;}
+        #gnb > ul > li:nth-child(1) {width: 100%;}
+        #gnb > ul > li:nth-child(3) {width: 100%;}
+
+          #gnb > ul > li > a {text-align: left;}
 
 
 }

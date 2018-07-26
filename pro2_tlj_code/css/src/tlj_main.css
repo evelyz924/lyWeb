@@ -1,48 +1,56 @@
 @import url("./tlj_main/wrap/wrap.css");
 @import url("./tlj_main/wrap/wrap_media/wrap480.css");
 @import url("./tlj_main/wrap/wrap_media/wrap768.css");
+@import url("./tlj_main/wrap/wrap_media/wrap1024.css");
 @import url("./tlj_main/wrap/wrap_media/wrap1366.css");
 @import url("./tlj_main/wrap/wrap_media/wrap1920.css");
 
 @import url("./tlj_main/headBox/headBox.css");
 @import url("./tlj_main/headBox/headBox_media/headBox480.css");
 @import url("./tlj_main/headBox/headBox_media/headBox768.css");
+@import url("./tlj_main/headBox/headBox_media/headBox1024.css");
 @import url("./tlj_main/headBox/headBox_media/headBox1366.css");
 @import url("./tlj_main/headBox/headBox_media/headBox1920.css");
 
 @import url("./tlj_main/playBox/playBox.css");
 @import url("./tlj_main/playBox/playBox_media/playBox480.css");
 @import url("./tlj_main/playBox/playBox_media/playBox768.css");
+@import url("./tlj_main/playBox/playBox_media/playBox1024.css");
 @import url("./tlj_main/playBox/playBox_media/playBox1366.css");
 @import url("./tlj_main/playBox/playBox_media/playBox1920.css");
 
 @import url("./tlj_main/quickBox/quickBox.css");
 @import url("./tlj_main/quickBox/quickBox_media/quickBox480.css");
 @import url("./tlj_main/quickBox/quickBox_media/quickBox768.css");
+@import url("./tlj_main/quickBox/quickBox_media/quickBox1024.css");
 @import url("./tlj_main/quickBox/quickBox_media/quickBox1366.css");
 @import url("./tlj_main/quickBox/quickBox_media/quickBox1920.css");
 
 @import url("./tlj_main/shopBox/shopBox.css");
 @import url("./tlj_main/shopBox/shopBox_media/shopBox480.css");
 @import url("./tlj_main/shopBox/shopBox_media/shopBox768.css");
+@import url("./tlj_main/shopBox/shopBox_media/shopBox1024.css");
 @import url("./tlj_main/shopBox/shopBox_media/shopBox1366.css");
 @import url("./tlj_main/shopBox/shopBox_media/shopBox1920.css");
 
 @import url("./tlj_main/proBox/proBox.css");
 @import url("./tlj_main/proBox/proBox_media/proBox480.css");
 @import url("./tlj_main/proBox/proBox_media/proBox768.css");
+@import url("./tlj_main/proBox/proBox_media/proBox1024.css");
 @import url("./tlj_main/proBox/proBox_media/proBox1366.css");
 @import url("./tlj_main/proBox/proBox_media/proBox1920.css");
 
 @import url("./tlj_main/cjBox/cjBox.css");
 @import url("./tlj_main/cjBox/cjBox_media/cjBox480.css");
 @import url("./tlj_main/cjBox/cjBox_media/cjBox768.css");
+@import url("./tlj_main/cjBox/cjBox_media/cjBox1024.css");
 @import url("./tlj_main/cjBox/cjBox_media/cjBox1366.css");
 @import url("./tlj_main/cjBox/cjBox_media/cjBox1920.css");
 
 @import url("./tlj_main/footBox/footBox.css");
 @import url("./tlj_main/footBox/footBox_media/footBox480.css");
 @import url("./tlj_main/footBox/footBox_media/footBox768.css");
+@import url("./tlj_main/footBox/footBox_media/footBox1024.css");
 @import url("./tlj_main/footBox/footBox_media/footBox1366.css");
 @import url("./tlj_main/footBox/footBox_media/footBox1920.css");
 
@@ -55,6 +63,7 @@
     #f1e2b4
     #f26a25
     #ffffff
+    #cccccc
     #333333
     #2d2d2d
 */

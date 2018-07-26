@@ -5,11 +5,11 @@
   position: relative;
   position: fixed; top: 0; left: 0;
   z-index: 1000;
-  width: 100%; height: 70px;
+  width: 100%; height: 60px;
   background-color: rgba(7,76,67,0.9);}
 
 #headBox:after {content: " "; display: block;
-  position: absolute; top: 70px; left: 0;
+  position: absolute; top: 60px; left: 0;
   z-index: -100;
   width: 100%; height: 0; background-color: rgba(7,76,67,0.7);
   transition: height 500ms ease;}
@@ -28,7 +28,7 @@
       background-image: url(../../../../img/tlj_main_web_img/headBox/logo.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;}
+      background-size: 100%;}
 
   /* gnbWrap ================ */
 
@@ -39,7 +39,7 @@
     /* gnb_btn ---- */
     .gnb_btn {
       position: absolute; top: 0; right: 40px;
-      width: 32px; height: 100%; /*background-color: #505;*/}
+      width: 28px; height: 100%; /*background-color: #505;*/}
 
       .gnb_btn > button {width: 100%; height: 100%; padding: 0; /*background-color: #aff;*/}
 
@@ -50,29 +50,32 @@
         .menu_icon:before {
           content: " "; display: block;
           width: 100%; height: 4px; background-color: #fff;
-          position: absolute; top: -14px;
+          position: absolute; top: -10px;
           transition: all 500ms ease;}
         .menu_icon:after {
           content: " "; display: block;
           width: 100%; height: 4px; background-color: #fff;
-          position: absolute; bottom: -14px;
+          position: absolute; bottom: -10px;
           transition: all 500ms ease;}
       
-      .gnb_btn > button.active .menu_icon {background-color: transparent;}
-      .gnb_btn > button.active .menu_icon:before {
-        transform-origin: left top;
-        width: 130%;
-        transform: rotate(45deg);}
-      .gnb_btn > button.active .menu_icon:after {
-        transform-origin: left bottom;
-        width: 130%;
-        transform: rotate(-45deg);}
+        .gnb_btn > button.active .menu_icon {background-color: transparent;}
+        .gnb_btn > button.active .menu_icon:before {
+          margin-left: 3px;
+          transform-origin: left top;
+          width: 110%;
+          transform: rotate(43deg);}
+        .gnb_btn > button.active .menu_icon:after {
+          margin-left: 3px;
+          transform-origin: left bottom;
+          width: 110%;
+          transform: rotate(-43deg);}
 
     /* gnb ----------------- */
     #gnb {
+      display: none;
       position: absolute; top: 0; left: 50%;
       margin-left: -410px;
-      width:auto; height: 100%;}
+      width: 820px; height: 100%;}
 
       #gnb > ul {
         width: 100%; height: 100%;}
@@ -90,7 +93,7 @@
             display: block;
             width: 100%; height: 100%;
             text-align: center;
-            line-height: 70px;
+            line-height: 60px;
             font-weight: bold;
             font-size: 1.2rem;
             color: #fff;}
@@ -102,8 +105,6 @@
               box-sizing: border-box; padding-top: 12px;
               display: none;
               width: auto; height: auto;}
-            .depth_2_01 {}
-            .depth_2_03 {}
 
               .depth_2 > li {
                 padding-left: 10px;
