@@ -12,16 +12,22 @@
       background-position: center;
       background-size: cover;}
 
+    #proBox li:hover,
+    #proBox li:focus {
+      background-size: 120%;
+      /*transition: all 500ms ease;*/}
+
       #proBox a {
         display: block;
         box-sizing: border-box;
+        padding-top: 200px;
         width: 100%; height: 100%;
         text-align: center;
         font-size: 2.5rem; font-weight: bold; color: #fff;
-        background-color: rgba(0,0,0,0.5);}
+        background-color: rgba(0,0,0,0.6);}
   
   /* pro_01 ------------- */
-  .pro_01 {width: 100%; height: 350px;}
+  .pro_01 {width: 100%; height: 450px;}
     
     .pro_01 > li {
       box-sizing: border-box; border: 1px solid #fff;
@@ -32,10 +38,10 @@
     .pro_01 > li:nth-child(3) {background-image: url("../../../../img/tlj_main_web_img/proBox/cake.jpg");}
     .pro_01 > li:nth-child(4) {background-image: url("../../../../img/tlj_main_web_img/proBox/sand.jpg");}
 
-      .pro_01 > li > a {padding-top: 140px;}
+      /*.pro_01 > li > a {padding-top: 200px;}*/
 
   /* pro_02 ------------- */
-  .pro_02 {float:left; width: 60%; height: 320px;}
+  .pro_02 {float: left; width: 60%; height: 450px;}
 
     .pro_02 > li {
       box-sizing: border-box; border: 1px solid #fff;
@@ -45,11 +51,11 @@
     .pro_02 > li:nth-child(2) {background-image: url("../../../../img/tlj_main_web_img/proBox/soup.jpg");}
     .pro_02 > li:nth-child(3) {background-image: url("../../../../img/tlj_main_web_img/proBox/drink.jpg");}
 
-      .pro_02 > li > a {padding-top: 130px;}
+      /*.pro_02 > li > a {padding-top: 180px;}*/
 
 
   /* pro_03 ------------- */
-  .pro_03 {float:left; width: 40%; height: 320px;}
+  .pro_03 {float: left; width: 40%; height: 450px;}
 
     .pro_03 > li {
       box-sizing: border-box; border: 1px solid #fff;
@@ -60,8 +66,8 @@
     .pro_03 > li:nth-child(1) {background-image: url("../../../../img/tlj_main_web_img/proBox/others.jpg");}
     .pro_03 > li:nth-child(2) {background-image: url("../../../../img/tlj_main_web_img/proBox/character.jpg");}
 
-      .pro_03 > li:nth-child(1) > a {padding-top: 130px;}
-      .pro_03 > li:nth-child(2) > a {padding-top: 120px;}
+      /*.pro_03 > li:nth-child(1) > a {padding-top: 180px;}*/
+      .pro_03 > li:nth-child(2) > a {padding-top: 190px;}
 
 
 

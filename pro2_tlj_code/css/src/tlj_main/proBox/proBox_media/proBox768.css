@@ -1,0 +1,31 @@
+/* proBox768.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+/* #proBox =================================== */
+      #proBox a {font-size: 1.8rem;}
+
+  /* pro_01 ------------- */
+  .pro_01 {height: 250px;}
+
+    .pro_01 > li {width: calc(100% / 2);}
+    #proBox .pro_01 > li:nth-child(1) {background-position: top;}
+
+      .pro_01 > li > a {padding-top: 11.132812vw; /* 114/1024*100 */}
+
+  /* pro_02 ------------- */
+  .pro_02 {float: none; width: 100%; height: 250px;}
+
+    #proBox .pro_02 > li:nth-child(3) {background-position: top;}
+
+      .pro_02 > li > a {padding-top: 10.742187vw; /* 110/1024*100 */}
+
+  /* pro_03 ------------- */
+  .pro_03 {float: none; width: 100%; height: 26.3671875vw; /* 270/1024*100 */}
+
+    #proBox .pro_03 > li:nth-child(2) {background-position-y: -8.789062vw; /* -90/1024*100 */}
+
+      .pro_03 > li:nth-child(1) > a {padding-top: 11.71875vw; /* 120/1024*100 */}
+      .pro_03 > li:nth-child(2) > a {padding-top: 10.742187vw; /* 110/1024*100 */}
+
+}

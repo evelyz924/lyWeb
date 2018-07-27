@@ -3,21 +3,18 @@
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
 
 /* #proBox =================================== */
-      #proBox a {font-size: 1.8rem;}
+      #proBox a {
+        font-size: 1.8rem;
+        padding-top: 9.516837vw; /* 130/1366*100 */}
 
   /* pro_01 ------------- */
-  .pro_01 {height: 18.301610vw; /* 250/1366*100 */}
-
-      .pro_01 > li > a {padding-top: 8.052708vw; /* 110/1366*100 */}
+  .pro_01 {height: 21.961932vw; /* 300/1366*100 */}
 
   /* pro_02 ------------- */
-  .pro_02 {height: 16.105417vw; /* 220/1366*100 */}
-
-      .pro_02 > li > a {padding-top: 7.320644vw; /* 100/1366*100*/}
+  .pro_02 {height: 21.961932vw; /* 300/1366*100 */}
 
   /* pro_03 ------------- */
-  .pro_03 {height: 16.105417vw; /* 220/1366*100 */}
+  .pro_03 {height: 21.961932vw; /* 300/1366*100 */}
 
-      .pro_03 > li:nth-child(1) > a {padding-top: 7.320644vw; /* 100/1366*100*/}
-      .pro_03 > li:nth-child(2) > a {padding-top: 6.588579vw; /* 90/1366*100*/}
+      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 8.345534vw; /* 114/1366*100*/}
 }
