@@ -39,7 +39,7 @@
     e.preventDefault();
     dep2.stop().slideUp(timed);
     headBox.removeClass('show');
-  })
+  });
 
   gnbLi.on('mouseenter',function(e) {
     e.preventDefault();
@@ -60,7 +60,7 @@
 
 
   // gnb_btn 클릭시 보이기 ==============
-  var winW = $(window).outerWidth();
+  // var winW = $(window).outerWidth();
   var gnbBtn = $('.gnb_btn');
 
   gnbBtn.on('click',function(e) {

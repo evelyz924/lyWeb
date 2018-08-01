@@ -5,25 +5,23 @@
 /* #proBox =================================== */
       #proBox a {
         font-size: 1.8rem;
-        padding-top: 11.71875vw; /* 90/768*100 */}
+        padding-top: 18.75vw; /* 144/768*100 */}
 
   /* pro_01 ------------- */
-  .pro_01 {height: 26.041666vw; /* 200/768*100 */}
+  .pro_01 {height: 42.96875vw; /* 330/768*100 */}
 
     .pro_01 > li {width: calc(100% / 2);}
-    #proBox .pro_01 > li:nth-child(1) {background-position-y: -3.90625vw; /* -30/768*100 */}
-    #proBox .pro_01 > li:nth-child(4) {background-position-y: -3.90625vw; /* -30/768*100 */}
 
   /* pro_02 ------------- */
-  .pro_02 {float: none; width: 100%; height: 26.041666vw; /* 200/768*100 */}
+  .pro_02 {float: none; width: 100%; height: 42.96875vw; /* 330/768*100 */}
 
     #proBox .pro_02 > li:nth-child(3) {background-position: top;}
 
   /* pro_03 ------------- */
-  .pro_03 {float: none; width: 100%; height: 26.041666vw; /* 200/768*100 */}
+  .pro_03 {float: none; width: 100%; height: 42.96875vw; /* 330/768*100 */}
 
-    #proBox .pro_03 > li:nth-child(2) {background-position-y: -11.71875vw; /* -90/768*100 */}
+    #proBox .pro_03 > li:nth-child(2) {background-position-y: -3.90625vw; /* -30/768*100 */}
 
-      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 10.416666vw; /* 80/768*100 */}
+      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 17.447916vw; /* 134/768*100 */}
 
 }

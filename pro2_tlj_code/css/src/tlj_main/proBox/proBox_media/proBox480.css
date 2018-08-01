@@ -2,6 +2,26 @@
 
 @media screen and (max-width: 480px) {
 
+/* #proBox =================================== */
+      #proBox a {
+        font-size: 1.8rem;
+        padding-top: 16.666666vw; /* 80/480*100 */}
 
+  /* pro_01 ------------- */
+  .pro_01 {height: 41.666666vw; /* 200/480*100 */}
+
+    .pro_01 > li {width: calc(100% / 2);}
+
+  /* pro_02 ------------- */
+  .pro_02 {float: none; width: 100%; height: 41.666666vw; /* 200/480*100 */}
+
+    #proBox .pro_02 > li:nth-child(3) {background-position: top;}
+
+  /* pro_03 ------------- */
+  .pro_03 {float: none; width: 100%; height: 41.666666vw; /* 200/480*100 */}
+
+    #proBox .pro_03 > li:nth-child(2) {background-position-y: -4.166666vw; /* -20/480*100 */}
+
+      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 14.583333vw; /* 70/480*100 */}
 
 }

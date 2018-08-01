@@ -1,0 +1,9 @@
+/* cjBox480.css */
+
+@media screen and (max-width: 480px) {
+
+/* #cjBox ==================================== */
+#cjBox {display: none;}
+
+
+}
