@@ -5,12 +5,12 @@
 /* #footBox ================================== */
 #footBox {padding: 20px 0;}
 
-  .foot_wrap {width: 364px;}
+  .foot_wrap {width: 370px;}
 
     /* fnb ----------- */
     .fnb > li {
       margin-right: 6px;
-      width: 44px; height: 24px;}
+      width: 46px; height: 24px;}
 
     .fnb > li:nth-child(5) {width: 94px;}
     .fnb > li:nth-child(6) {width: 114px;}

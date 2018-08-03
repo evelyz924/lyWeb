@@ -18,7 +18,7 @@
       float: left;
       width: 70px; height: 40px;}
 
-    .fnb > li:nth-child(5) {width: 120px;}
+    .fnb > li:nth-child(5) {width: 122px;}
     .fnb > li:nth-child(6) {width: 140px;}
     .fnb > li:nth-child(7) {width: 100px;}
     .fnb > li:last-child {margin-right: 0;}

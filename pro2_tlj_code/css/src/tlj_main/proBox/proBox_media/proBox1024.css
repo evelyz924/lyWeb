@@ -3,6 +3,8 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
 /* #proBox =================================== */
+#proBox {padding-bottom: 100px;}
+
       #proBox a {
         font-size: 1.8rem;
         padding-top: 10.742187vw; /* 110/1024*100 */}

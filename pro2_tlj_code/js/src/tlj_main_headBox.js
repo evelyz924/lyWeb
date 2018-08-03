@@ -1,4 +1,4 @@
-
+// tlj_main_headBox.js
 
 (function($) {
 
@@ -68,13 +68,6 @@
     $(this).children('button').toggleClass('active');
     gnb.stop().slideToggle(timed);
   });
-
-  // $(window).on('resize',function(e) {
-  //   var nowW = $(window).outerwidth();
-  //   if(winW !== nowW){
-  //     location.reload();
-  //   }
-  // });
   // ------- gnb_btn 클릭시 끝
 
 

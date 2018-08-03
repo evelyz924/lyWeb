@@ -1,0 +1,24 @@
+/* shopBox768.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+/* #shopBox ================================== */
+#shopBox {
+  padding: 6.510416vw 0; /* 50/768*100 */
+  height: 150px;
+}
+
+  #shopBox > a {width: 480px;}
+
+    #shopBox dl {
+      padding: 12px 0;
+      width: 330px;
+    }
+
+      #shopBox dt {font-size: 1.2rem;}
+      #shopBox dd {
+        margin-top: 86px;
+        font-size: 0.9rem;
+      }
+
+}

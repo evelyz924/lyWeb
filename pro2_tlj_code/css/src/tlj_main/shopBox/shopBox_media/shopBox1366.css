@@ -3,6 +3,22 @@
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
 
 /* #shopBox ================================== */
-#shopBox {padding: 5.124450vw 0; /* 70/1366*100 */}
+#shopBox {
+  padding: 5.124450vw 0; /* 70/1366*100 */
+  height: 320px;
+}
+
+  #shopBox > a {width: 800px;}
+
+    #shopBox dl {
+      padding: 64px 0;
+      width: 600px;
+    }
+
+      #shopBox dt {font-size: 1.6rem;}
+      #shopBox dd {
+        margin-top: 142px;
+        font-size: 1.3rem;
+      }
 
 }

@@ -5,14 +5,14 @@
 /* #footBox ================================== */
 #footBox {padding: 20px 0;}
 
-  .foot_wrap {width: 430px;}
+  .foot_wrap {width: 432px;}
 
     /* fnb ----------- */
     .fnb > li {
       margin-right: 10px;
       width: 54px; height: 30px;}
 
-    .fnb > li:nth-child(5) {width: 104px;}
+    .fnb > li:nth-child(5) {width: 106px;}
     .fnb > li:nth-child(6) {width: 124px;}
 
     .fnb > li:nth-child(1) {display: none;}
