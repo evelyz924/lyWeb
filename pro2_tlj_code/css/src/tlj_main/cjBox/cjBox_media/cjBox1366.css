@@ -11,8 +11,6 @@
       width: 74px; height: 60px;
     }
 
-/*    .family > li:nth-child(1)  {
-      background-image: url("../../../../img/tlj_main_web_img/cjBox/cjfoodvill.png");}*/
     .family > li:nth-child(2)  {width: 54px;}
     .family > li:nth-child(3)  {width: 64px;}
     .family > li:nth-child(4)  {width: 64px; background-position-y: 16px;}

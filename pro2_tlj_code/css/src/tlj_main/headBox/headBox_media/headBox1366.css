@@ -25,9 +25,9 @@
 
         #gnb > ul > li {
           margin-right: 4.392386vw; /* 60/1366*100 */
-          width: 60px;}
-        #gnb > ul > li:nth-child(1) {width: 90px;}
-        #gnb > ul > li:nth-child(3) {width: 100px;}
+          width: 62px;}
+        #gnb > ul > li:nth-child(1) {width: 94px;}
+        #gnb > ul > li:nth-child(3) {width: 102px;}
 
           #gnb > ul > li > a {
             line-height: 50px;

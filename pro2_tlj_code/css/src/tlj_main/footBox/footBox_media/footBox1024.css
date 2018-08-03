@@ -1,0 +1,34 @@
+/* footBox1024.css */
+/* 동영상 재생 안함 사진 대체 */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+/* #footBox ================================== */
+#footBox {padding: 20px 0;}
+
+  .foot_wrap {width: 716px;}
+
+    /* fnb ----------- */
+    .fnb > li {
+      margin-right: 10px;
+      width: 54px; height: 30px;}
+
+    .fnb > li:nth-child(5) {width: 104px;}
+    .fnb > li:nth-child(6) {width: 124px;}
+    .fnb > li:nth-child(7) {width: 84px;}
+
+      .fnb a {line-height: 30px; font-size: 14px;}
+
+    /* company_info --------- */
+    .company_info {
+      padding-left: 2px;
+      margin: 20px 0;}
+
+        .company_info > div > p{font-size: 12px;}
+
+    /* copyright ----------- */
+    .copyright {
+      padding-left: 2px;
+      font-size: 12px;}
+
+}

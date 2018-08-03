@@ -1,0 +1,9 @@
+/* shopBox1024.css */
+/* 동영상 재생 안함 사진 대체 */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+/* #shopBox ================================== */
+#shopBox {padding: 0; /* 70/1366*100 */}
+
+}

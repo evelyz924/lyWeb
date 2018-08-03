@@ -1,0 +1,8 @@
+/* shopBox1366.css */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+/* #shopBox ================================== */
+#shopBox {padding: 5.124450vw 0; /* 70/1366*100 */}
+
+}

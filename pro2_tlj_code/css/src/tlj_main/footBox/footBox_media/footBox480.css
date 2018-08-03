@@ -1,0 +1,41 @@
+/* footBox480.css */
+
+@media screen and (max-width: 480px) {
+
+/* #footBox ================================== */
+#footBox {padding: 20px 0;}
+
+  .foot_wrap {width: 364px;}
+
+    /* fnb ----------- */
+    .fnb > li {
+      margin-right: 6px;
+      width: 44px; height: 24px;}
+
+    .fnb > li:nth-child(5) {width: 94px;}
+    .fnb > li:nth-child(6) {width: 114px;}
+
+    .fnb > li:nth-child(1) {display: none;}
+    .fnb > li:nth-child(2) {display: none;}
+    .fnb > li:nth-child(4) {display: none;}
+    .fnb > li:nth-child(7) {display: none;}
+
+      .fnb a {line-height: 24px; font-size: 12px;}
+
+    /* company_info --------- */
+    .company_info {
+      padding-left: 2px;
+      margin: 16px 0;}
+
+        .company_info > div > p{
+          margin-right: 10px;
+          font-size: 10px;}
+
+        .company_info > div:nth-child(1) > p:nth-child(2) {margin-right: 10px;}
+
+    /* copyright ----------- */
+    .copyright {
+      padding-left: 2px;
+      font-size: 10px;}
+
+}

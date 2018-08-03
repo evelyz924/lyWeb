@@ -4,7 +4,25 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
 /* #quickBox ================================= */
+#quickBox {width: 100%; height: 160px;}
+
+    .quick_wrap > li {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;}
+
+    .quick_wrap > li:last-child {background-position-y: 0;}
+      .quick_wrap > li:last-child > a {background-position-y: 0;}
 
 
+
+    .q_location {
+      background-image: url("../../../../../img/tlj_main_web_img/quickBox/location.jpg");}
+    .q_benefit {
+      background-image: url("../../../../../img/tlj_main_web_img/quickBox/benefit.jpg");}
+    .q_franchise {
+      background-image: url("../../../../../img/tlj_main_web_img/quickBox/franchise.jpg");}
+
+      #quickBox a {line-height: 160px;}
 
 }

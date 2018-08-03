@@ -6,7 +6,9 @@
   box-sizing: border-box; padding: 30px 0;
   width: 100%; height: auto; background-color: #333;}
 
-  .foot_wrap {margin-left: 336px; width: 960px; height: auto;}
+  .foot_wrap {
+    margin: auto;
+    width: 1222px; height: auto;}
 
     /* fnb ----------- */
     .fnb {width: 100%; height: auto;}
@@ -16,22 +18,23 @@
       float: left;
       width: 70px; height: 40px;}
 
-      .fnb > li:nth-child(5) {width: 120px;}
-      .fnb > li:nth-child(6) {width: 140px;}
-      .fnb > li:nth-child(7) {width: 100px;}
+    .fnb > li:nth-child(5) {width: 120px;}
+    .fnb > li:nth-child(6) {width: 140px;}
+    .fnb > li:nth-child(7) {width: 100px;}
+    .fnb > li:last-child {margin-right: 0;}
 
-    .fnb a {
-      display: block;
-      width: 100%; height: 100%;
-      line-height: 40px; text-align: center;
-      font-size: 16px; color: #fff;}
+      .fnb a {
+        display: block;
+        width: 100%; height: 100%;
+        line-height: 40px; text-align: center;
+        font-size: 16px; color: #fff;}
 
-    .fnb > li:nth-child(5) > a {color: #f26a25;}
+      .fnb > li:nth-child(5) > a {color: #f26a25;}
 
 
     /* company_info --------- */
     .company_info {
-      box-sizing: border-box; padding-left: 6px;
+      box-sizing: border-box; padding-left: 8px;
       margin: 30px 0;
       width: 100%; height: auto;}
     
@@ -49,5 +52,5 @@
 
     /* copyright ----------- */
     .copyright {
-      box-sizing: border-box; padding-left: 6px;
+      box-sizing: border-box; padding-left: 8px;
       font-size: 14px; color: #fff;}

@@ -1,0 +1,8 @@
+/* shopBox1920.css */
+
+@media screen and (min-width: 1367px) {
+
+/* #shopBox ================================== */
+#shopBox {padding: 5.208333vw 0; /* 100/1920*100 */}
+
+}

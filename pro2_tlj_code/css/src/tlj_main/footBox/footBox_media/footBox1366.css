@@ -1,0 +1,23 @@
+/* footBox1366.css */
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+/* #footBox ================================== */
+#footBox {padding: 20px 0;}
+
+  .foot_wrap {width: 972px;}
+
+    /* fnb ----------- */
+    .fnb > li {margin-right: 14px;}
+
+      .fnb a {font-size: 14px;}
+
+    /* company_info --------- */
+    .company_info {margin: 20px 0;}
+
+        .company_info > div > p{font-size: 12px;}
+
+    /* copyright ----------- */
+    .copyright {font-size: 12px;}
+    
+}
