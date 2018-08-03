@@ -11,8 +11,11 @@
 
   /* logo -----------------*/
   h1 {
-    position: absolute; top: 0; left: 50%; margin-left: -90px;
-    width: 180px;}
+    position: absolute; top: 0; left: 50%; margin-left: -100px;
+    width: 160px;}
+
+    /* gnb_btn ---- */
+    .gnb_btn {right: 20px;}
 
     /* gnb ----------------- */
     #gnb {

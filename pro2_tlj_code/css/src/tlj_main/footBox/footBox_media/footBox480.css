@@ -3,39 +3,19 @@
 @media screen and (max-width: 480px) {
 
 /* #footBox ================================== */
-#footBox {padding: 20px 0;}
+#footBox {padding: 30px 0;}
 
-  .foot_wrap {width: 370px;}
+  .foot_wrap {width: 280px;}/* 최소 디바이스 280으로 맞추기 */
 
     /* fnb ----------- */
-    .fnb > li {
-      margin-right: 6px;
-      width: 46px; height: 24px;}
-
-    .fnb > li:nth-child(5) {width: 94px;}
-    .fnb > li:nth-child(6) {width: 114px;}
-
-    .fnb > li:nth-child(1) {display: none;}
-    .fnb > li:nth-child(2) {display: none;}
-    .fnb > li:nth-child(4) {display: none;}
-    .fnb > li:nth-child(7) {display: none;}
-
-      .fnb a {line-height: 24px; font-size: 12px;}
+    .fnb > li {height: 0; overflow: hidden;}
 
     /* company_info --------- */
-    .company_info {
-      padding-left: 2px;
-      margin: 16px 0;}
-
-        .company_info > div > p{
-          margin-right: 10px;
-          font-size: 10px;}
-
-        .company_info > div:nth-child(1) > p:nth-child(2) {margin-right: 10px;}
+    .company_info {margin: 0; height: 0; overflow: hidden;}
 
     /* copyright ----------- */
     .copyright {
-      padding-left: 2px;
-      font-size: 10px;}
+      text-align: center;
+      font-size: 12px;}
 
 }

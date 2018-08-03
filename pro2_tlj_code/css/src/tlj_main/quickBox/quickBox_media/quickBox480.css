@@ -3,6 +3,7 @@
 @media screen and (max-width: 480px) {
 
 /* #quickBox ================================= */
-#quickBox {display: none;}
+#quickBox {height: 0; overflow: hidden;}
+
 
 }

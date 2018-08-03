@@ -59,8 +59,8 @@
     .pro_03 > li {width: calc(100% / 2); height: 100%;}
 
       .pro_03 > li:nth-child(1) > a {background-image: url("../../../../img/tlj_main_web_img/proBox/others.jpg");}
-      .pro_03 > li:nth-child(2) > a {
-        padding-top: 190px;
+      #proBox .pro_03 > li:nth-child(2) > a {
+        padding-top: 160px;
         background-image: url("../../../../img/tlj_main_web_img/proBox/character.jpg");}
 
 

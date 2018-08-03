@@ -6,7 +6,7 @@
 #proBox {padding-bottom: 1px;}
 
       #proBox a {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         padding-top: 16.666666vw; /* 80/480*100 */}
 
   /* pro_01 ------------- */
@@ -24,6 +24,6 @@
 
     #proBox .pro_03 > li:nth-child(2) {background-position-y: -4.166666vw; /* -20/480*100 */}
 
-      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 14.583333vw; /* 70/480*100 */}
+      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 12.5vw; /* 60/480*100 */}
 
 }

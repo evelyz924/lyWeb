@@ -22,6 +22,6 @@
 
     #proBox .pro_03 > li:nth-child(2) {background-position-y: -9.765625vw; /* -100/1024*100 */}
 
-      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 9.765625vw; /* 100/1024*100 */}
+      #proBox .pro_03 > li:nth-child(2) > a {padding-top: 8.789062vw; /* 90/1024*100 */}
 
 }
