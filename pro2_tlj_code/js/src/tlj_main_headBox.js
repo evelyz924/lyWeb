@@ -20,7 +20,7 @@
   // ----- gnb 가운데 정렬 끝
 
 
-  // depth_2 나타나게 하기 =============
+// depth_2 나타나게 하기 =============
   var headBox = $('#headBox');
   var gnb     = $('#gnb');
   var gnbLi   = gnb.children('ul').children('li');
@@ -56,10 +56,10 @@
     e.preventDefault();
     headBox.trigger('mouseleave');
   });
-  // ------- depth_2 나타나게 끝
+// ------- depth_2 나타나게 끝
 
 
-  // gnb_btn 클릭시 보이기 ==============
+// gnb_btn 클릭시 보이기 ==============
   // var winW = $(window).outerWidth();
   var gnbBtn = $('.gnb_btn');
 
@@ -68,17 +68,21 @@
     $(this).children('button').toggleClass('active');
     gnb.stop().slideToggle(timed);
   });
-  // ------- gnb_btn 클릭시 끝
+// ------- gnb_btn 클릭시 끝
 
 
-  // mobile에서 gnb 아코디언 적용 ============
-  // gnbLi.eq(0).nextAll().show();
+// mobile에서 gnb 아코디언 적용 ============
+  // gnbLi.eq(0).nextAll().view();
 
+  // // gnbLi 클릭시 dep2를 보이게 만들기
   // gnbLi.on('click',function(e){
   //   e.preventDefault();
   //   var ongnb = $(this);
 
-  //   ongnb.parent().siblings('dep2').children('li').slideUp(timed);
+  //   // 열렸을경우 클릭시 다시 사라지게
+  //   ongnb.children().siblings('ol').children('li').slideUp(timed);
+
+  //   // 현재 선택하는 gnbLi의 dep2가 열렸는가?
   //   var thisNext = ongnb.nextAll().css('display');
   //   console.log(thisNext);
 
@@ -88,7 +92,7 @@
   //     ongnb.nextAll().slideDown(timed);
   //   }
   // });
-  // ------ gnb 아코디언 적용 끝
+// ------ gnb 아코디언 적용 끝
 
 
 

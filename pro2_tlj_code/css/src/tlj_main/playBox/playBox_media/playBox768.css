@@ -6,8 +6,8 @@
 #playBox {height: 352px; /* 352/768*100 */}
 
   /* .add_banner 영역 ---- */
-  .add_banner {display: block;}
+  .banner {display: block;}
 
-    .add_banner > li {background-size: cover;}
+    .banner_wrap > div {background-size: cover;}
 
 }
