@@ -3,11 +3,9 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
 /* #playBox ================================== */
-#playBox {height: 352px; /* 352/768*100 */}
+#playBox {height: 400px; /* 352/768*100 */}
 
   /* .add_banner 영역 ---- */
   .banner {display: block;}
-
-    .banner_wrap > div {background-size: cover;}
 
 }

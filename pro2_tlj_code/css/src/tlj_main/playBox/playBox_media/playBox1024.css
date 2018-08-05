@@ -4,7 +4,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
 /* #playBox ================================== */
-#playBox {height: 46.484375vw; /* 476/1024*100 */}
+#playBox {height: 540px; /* 436/1024*100 */}
 
   /* .add_banner 영역 ---- */
   .banner {display: block;}
