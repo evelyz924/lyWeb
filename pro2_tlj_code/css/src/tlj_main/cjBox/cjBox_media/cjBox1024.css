@@ -1,26 +1,26 @@
 /* cjBox1024.css */
 /* 동영상 재생 안함 사진 대체 */
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
 
 /* #cjBox ==================================== */
 /*#cjBox {display: none;}*/
-  .family {width: 718px;}
+  .family {width: 44.875rem;}
 
     .family > li {
-      margin-right: 11px;
-      width: 56px; height: 50px;
+      margin-right: 0.6875rem;
+      width: 3.5rem; height: 3.125rem;
     }
 
-    .family > li:nth-child(2)  {width: 36px;}
-    .family > li:nth-child(3)  {width: 46px;}
-    .family > li:nth-child(4)  {width: 46px; background-position-y: 15px;}
-    .family > li:nth-child(5)  {width: 72px;}
-    .family > li:nth-child(6)  {width: 38px;}
-    .family > li:nth-child(7)  {background-position-y: 9px;}
-    .family > li:nth-child(8)  {width: 60px;}
-    .family > li:nth-child(9)  {width: 110px; background-position-y: 16px;}
-    .family > li:nth-child(10) {width: 92px;}
+    .family > li:nth-child(2)  {width: 2.25rem;}
+    .family > li:nth-child(3)  {width: 2.875rem;}
+    .family > li:nth-child(4)  {width: 2.875rem; background-position-y: 0.9375rem;}
+    .family > li:nth-child(5)  {width: 4.5rem;}
+    .family > li:nth-child(6)  {width: 2.375rem;}
+    .family > li:nth-child(7)  {background-position-y: 0.5625rem;}
+    .family > li:nth-child(8)  {width: 3.75rem;}
+    .family > li:nth-child(9)  {width: 6.875rem; background-position-y: 1rem;}
+    .family > li:nth-child(10) {width: 5.75rem;}
 
 
 }

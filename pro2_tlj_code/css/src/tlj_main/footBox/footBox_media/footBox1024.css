@@ -1,34 +1,40 @@
 /* footBox1024.css */
 /* 동영상 재생 안함 사진 대체 */
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
 
 /* #footBox ================================== */
-#footBox {padding: 20px 0;}
+#footBox {padding: 1.25rem 0;}
 
-  .foot_wrap {width: 718px;}
+  .foot_wrap {width: 44.875rem;}
 
     /* fnb ----------- */
     .fnb > li {
-      margin-right: 10px;
-      width: 54px; height: 30px;}
+      margin-right: 0.625rem;
+      width: 3.375rem; height: 1.875rem;
+    }
 
-    .fnb > li:nth-child(5) {width: 106px;}
-    .fnb > li:nth-child(6) {width: 124px;}
-    .fnb > li:nth-child(7) {width: 84px;}
+    .fnb > li:nth-child(5) {width: 6.625rem;}
+    .fnb > li:nth-child(6) {width: 7.75rem;}
+    .fnb > li:nth-child(7) {width: 5.25rem;}
 
-      .fnb a {line-height: 30px; font-size: 14px;}
+      .fnb a {line-height: 1.875rem; font-size: 0.875rem;}
 
     /* company_info --------- */
     .company_info {
-      padding-left: 2px;
-      margin: 20px 0;}
+      padding-left: 0.125rem;
+      margin: 1.25rem 0;
+    }
 
-        .company_info > div > p{font-size: 12px;}
+        .company_info > div > p{
+          margin-right: 0.9rem;
+          font-size: 0.75rem;
+        }
 
     /* copyright ----------- */
     .copyright {
-      padding-left: 2px;
-      font-size: 12px;}
+      padding-left: 0.125rem;
+      font-size: 0.75rem;
+    }
 
 }

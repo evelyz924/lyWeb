@@ -1,24 +1,24 @@
 /* cjBox1366.css */
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 64.0625rem) and (max-width: 85.375rem) {
 
 /* #cjBox ==================================== */
 
-  .family {width: 972px;}
+  .family {width: 60.75rem;}
 
     .family > li {
-      margin-right: 20px;
-      width: 74px; height: 60px;
+      margin-right: 1.25rem;
+      width: 4.625rem; height: 3.75rem;
     }
 
-    .family > li:nth-child(2)  {width: 54px;}
-    .family > li:nth-child(3)  {width: 64px;}
-    .family > li:nth-child(4)  {width: 64px; background-position-y: 16px;}
-    .family > li:nth-child(5)  {width: 90px;}
-    .family > li:nth-child(6)  {width: 56px;}
-    .family > li:nth-child(7)  {background-position-y: 8px;}
-    .family > li:nth-child(8)  {width: 78px;}
-    .family > li:nth-child(9)  {width: 128px; background-position-y: 18px;}
-    .family > li:nth-child(10) {width: 110px;}
+    .family > li:nth-child(2)  {width: 3.375rem;}
+    .family > li:nth-child(3)  {width: 4rem;}
+    .family > li:nth-child(4)  {width: 4rem; background-position-y: 1rem;}
+    .family > li:nth-child(5)  {width: 5.625rem;}
+    .family > li:nth-child(6)  {width: 3.5rem;}
+    .family > li:nth-child(7)  {background-position-y: 0.5rem;}
+    .family > li:nth-child(8)  {width: 4.875rem;}
+    .family > li:nth-child(9)  {width: 8rem; background-position-y: 1.125rem;}
+    .family > li:nth-child(10) {width: 6.875rem;}
 
 }

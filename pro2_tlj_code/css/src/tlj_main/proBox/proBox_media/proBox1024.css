@@ -1,13 +1,14 @@
 /* proBox1024.css */
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
 
 /* #proBox =================================== */
-#proBox {padding-bottom: 100px;}
+#proBox {padding-bottom: 6.25rem;}
 
       #proBox a {
         font-size: 1.8rem;
-        padding-top: 10.742187vw; /* 110/1024*100 */}
+        padding-top: 10.742187vw; /* 110/1024*100 */
+      }
 
   /* pro_01 ------------- */
   .pro_01 {height: 25.390625vw; /* 260/1024*100 */}

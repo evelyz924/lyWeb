@@ -1,18 +1,19 @@
 /* headBox1366.css */
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 64.0625rem) and (max-width: 85.375rem) {
 
 /* #headBox ================================== */
-#headBox {height: 50px;}
+#headBox {height: 3.125rem;}
 
-#headBox:after {top: 50px;}
+#headBox:after {top: 3.125rem;}
 
-#headBox.show:after {height: 280px;}
+#headBox.show:after {height: 17.5rem;}
 
   /* logo -----------------*/
   h1 {
     margin-left: 2.196193vw; /* 30/1366*100 */
-    width: 166px;}
+    width: 10.375rem;
+  }
 
     /* gnb_btn ---- */
       .gnb_btn {display: none;}
@@ -21,27 +22,32 @@
     #gnb {
       display: block;
       margin-left: -20.497803vw; /* -280/1366*100 */
-      width: auto;}
+      width: auto;
+    }
 
         #gnb > ul > li {
           margin-right: 4.392386vw; /* 60/1366*100 */
-          width: 62px;}
-        #gnb > ul > li:nth-child(1) {width: 94px;}
-        #gnb > ul > li:nth-child(3) {width: 102px;}
+          width: 3.875rem;
+        }
+
+        #gnb > ul > li:nth-child(1) {width: 5.875rem;}
+        #gnb > ul > li:nth-child(3) {width: 6.375rem;}
 
           #gnb > ul > li > a {
-            line-height: 50px;
-            font-size: 1rem;}
+            line-height: 3.125rem;
+            font-size: 1rem;
+          }
 
             /* depth_2 ----- */
               .depth_2 > li {padding-left: 0;}
 
                 .depth_2 > li > a {
-                  padding: 3px 5px 3px 4px;
-                  margin-bottom: 5px;
-                  font-size: 0.8rem;}
+                  padding: 0.1875rem 0.3125rem 0.1875rem 0.25rem;
+                  margin-bottom: 0.3125rem;
+                  font-size: 0.8rem;
+                }
 
                 .depth_2 > li > a:hover:before,
-                .depth_2 > li > a:focus:before {height: 22px;}
+                .depth_2 > li > a:focus:before {height: 1.375rem;}
 
 }

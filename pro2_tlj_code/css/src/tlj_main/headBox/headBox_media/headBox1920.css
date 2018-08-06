@@ -1,6 +1,6 @@
 /* headBox1920.css */
 
-@media screen and (min-width: 1367px) {
+@media screen and (min-width: 85.4375rem) {
 
   /* logo -----------------*/
   h1 {margin-left: 2.083333vw; /* 40/1920*100 */}
@@ -9,8 +9,10 @@
     .gnb_btn {display: none;}
 
   /* gnb ----------------- */
-  #gnb {display: block;
-  margin-left: -21.354166vw; /* -410/1920*100 */}
+  #gnb {
+    display: block;
+    margin-left: -21.354166vw; /* -410/1920*100 */
+  }
 
     #gnb > ul > li {margin-right: 3.645833vw; /* 70/1920*100 */}
 

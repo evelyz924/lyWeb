@@ -1,25 +1,24 @@
 /* shopBox480.css */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
   
 /* #shopBox ================================== */
 #shopBox {
   padding: 8.333333vw /* 40/480*100 */ 0 10.416666vw /* 50/480*100 */;
-  height: 80px;
+  height: 7.5rem;
 }
 
-  #shopBox > a {width: 280px;}
+  #shopBox > a {width: 17.5rem;}
 
     #shopBox dl {
-      padding: 4px 0;
-      width: 190px;
+      padding: 0.5rem 0;
+      width: 17.25rem;
     }
 
-      #shopBox dt {font-size: 0.9rem;}
+      #shopBox dt {font-size: 1rem;}
       #shopBox dd {
-        margin-top: 40px;
+        margin-top: 4.1875rem;
         font-size: 0.75rem;
       }
-
 
 }

@@ -1,23 +1,26 @@
 /* footBox1366.css */
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 64.0625rem) and (max-width: 85.375rem) {
 
 /* #footBox ================================== */
-#footBox {padding: 20px 0;}
+#footBox {padding: 1.25rem 0;}
 
-  .foot_wrap {width: 972px;}
+  .foot_wrap {width: 60.75rem;}
 
     /* fnb ----------- */
-    .fnb > li {margin-right: 14px;}
+    .fnb > li {margin-right: 0.875rem;}
 
-      .fnb a {font-size: 14px;}
+      .fnb a {font-size: 0.875rem;}
 
     /* company_info --------- */
-    .company_info {margin: 20px 0;}
+    .company_info {margin: 1.25rem 0;}
 
-        .company_info > div > p{font-size: 12px;}
+        .company_info > div > p{
+          margin-right: 1rem;
+          font-size: 0.75rem;
+        }
 
     /* copyright ----------- */
-    .copyright {font-size: 12px;}
+    .copyright {font-size: 0.75rem;}
     
 }

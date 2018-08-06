@@ -5,21 +5,27 @@
   position: relative;
   position: fixed; top: 0; left: 0;
   z-index: 1000;
-  width: 100%; height: 60px;
-  background-color: rgba(7,76,67,0.9);}
+  width: 100%; height: 3.75rem;
+  background-color: rgba(7,76,67,0.9);
+}
 
-#headBox:after {content: " "; display: block;
-  position: absolute; top: 60px; left: 0;
+#headBox:after {
+  content: " ";
+  display: block;
+  position: absolute; top: 3.75rem; left: 0;
   z-index: -100;
-  width: 100%; height: 0; background-color: rgba(7,76,67,0.7);
-  transition: height 500ms ease;}
+  width: 100%; height: 0;
+  background-color: rgba(7,76,67,0.7);
+  transition: height 500ms ease;
+}
 
-#headBox.show:after {height: 334px;}
+#headBox.show:after {height: 20.875rem;}
 
   /* logo -----------------*/
   h1 {
-    margin-left: 40px;
-    width: 260px; height: 100%;}
+    margin-left: 2.5rem;
+    width: 16.25rem; height: 100%;
+  }
     
     h1 > a {
       display: block;
@@ -28,7 +34,8 @@
       background-image: url(../../../../img/tlj_main_web_img/headBox/logo.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 100%;}
+      background-size: 100%;
+    }
 
   /* gnbWrap ================ */
 
@@ -38,95 +45,118 @@
 
     /* gnb_btn ---- */
     .gnb_btn {
-      position: absolute; top: 0; right: 40px;
-      width: 28px; height: 100%; /*background-color: #505;*/}
+      position: absolute; top: 0; right: 2.5rem;
+      width: 1.75rem; height: 100%;
+    }
 
-      .gnb_btn > button {width: 100%; height: 100%; padding: 0; /*background-color: #aff;*/}
+      .gnb_btn > button {width: 100%; height: 100%; padding: 0;}
 
         .menu_icon {
           display: block;
-          width: 100%; height: 4px; background-color: #fff;
-          position: relative; transition: all 500ms ease;}
+          position: relative;
+          width: 100%; height: 0.25rem;
+          background-color: #fff;
+          transition: all 500ms ease;
+        }
         .menu_icon:before {
-          content: " "; display: block;
-          width: 100%; height: 4px; background-color: #fff;
-          position: absolute; top: -10px;
-          transition: all 500ms ease;}
+          content: " ";
+          display: block;
+          position: absolute; top: -0.625rem;
+          width: 100%; height: 0.25rem;
+          background-color: #fff;
+          transition: all 500ms ease;
+        }
         .menu_icon:after {
           content: " "; display: block;
-          width: 100%; height: 4px; background-color: #fff;
-          position: absolute; bottom: -10px;
-          transition: all 500ms ease;}
+          position: absolute; bottom: -0.625rem;
+          width: 100%; height: 0.25rem;
+          background-color: #fff;
+          transition: all 500ms ease;
+        }
       
         .gnb_btn > button.active .menu_icon {background-color: transparent;}
         .gnb_btn > button.active .menu_icon:before {
-          margin-left: 3px;
+          margin-left: 0.1875rem;
           transform-origin: left top;
           width: 110%;
-          transform: rotate(43deg);}
+          transform: rotate(43deg);
+        }
         .gnb_btn > button.active .menu_icon:after {
-          margin-left: 3px;
+          margin-left: 0.1875rem;
           transform-origin: left bottom;
           width: 110%;
-          transform: rotate(-43deg);}
+          transform: rotate(-43deg);
+        }
 
     /* gnb ----------------- */
     #gnb {
       display: none;
       position: absolute; top: 0; left: 50%;
-      margin-left: -410px;
-      width: 830px; height: 100%;}
+      margin-left: -25.625rem;
+      width: 51.875rem; height: 100%;
+    }
 
-      #gnb > ul {
-        width: 100%; height: 100%;}
+      #gnb > ul {width: 100%; height: 100%;}
 
         #gnb > ul > li {
           float: left;
           box-sizing: border-box;
-          margin-right: 70px;
-          width: 90px; height: 100%;}
+          margin-right: 4.375rem;
+          width: 5.625rem; height: 100%;
+        }
+
         #gnb > ul > li:last-child {margin-right: 0;}
-        #gnb > ul > li:nth-child(1) {width: 130px;}
-        #gnb > ul > li:nth-child(3) {width: 140px;}
+        #gnb > ul > li:nth-child(1) {width: 8.125rem;}
+        #gnb > ul > li:nth-child(3) {width: 8.75rem;}
 
           #gnb > ul > li > a {
             display: block;
             width: 100%; height: 100%;
             text-align: center;
-            line-height: 60px;
+            line-height: 3.75rem;
             font-weight: bold;
             font-size: 1.2rem;
-            color: #fff;}
+            color: #fff;
+          }
+
           #gnb > ul > li > a:hover,
-          #gnb > ul > li > a:focus {border-bottom: 4px solid #fff; transition: all 280ms ease;}
+          #gnb > ul > li > a:focus {
+            border-bottom: 0.25rem solid #fff;
+            transition: all 280ms ease;
+          }
 
             /* depth_2 ----- */
             .depth_2 {
-              box-sizing: border-box; padding-top: 12px;
+              box-sizing: border-box; padding-top: 0.75rem;
               display: none;
-              width: auto; height: auto;}
+              width: auto; height: auto;
+            }
 
               .depth_2 > li {
-                padding-left: 10px;
-                width: auto; height: auto;}
+                padding-left: 0.625rem;
+                width: auto; height: auto;
+              }
 
                 .depth_2 > li > a {
                   position: relative;
                   display: inline-block;
-                  box-sizing: border-box; padding: 4px 6px 4px 4px;
-                  margin-bottom: 6px;
+                  box-sizing: border-box; padding: 0.25rem 0.375rem 0.25rem 0.25rem;
+                  margin-bottom: 0.375rem;
                   white-space: nowrap;
-                  font-size: 1rem; color: #fff;}
+                  font-size: 1rem; color: #fff;
+                }
                   
                 .depth_2 > li > a:before{
                   content:" ";
                   display: inline-block; 
-                  position: absolute; top: 0; left: -3px;
-                  width: 3px; height:0; background-color: #fff;
-                  transition:all 280ms ease;}
+                  position: absolute; top: 0; left: -0.1875rem;
+                  width: 0.1875rem; height:0;
+                  background-color: #fff;
+                  transition:all 280ms ease;
+                }
 
                 .depth_2 > li > a:hover:before,
-                .depth_2 > li > a:focus:before {height: 27px;}
+                .depth_2 > li > a:focus:before {height: 1.6875rem;}
 
 
 

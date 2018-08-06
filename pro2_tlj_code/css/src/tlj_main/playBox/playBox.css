@@ -2,13 +2,15 @@
 
 .content_area{
   position: relative; z-index: 200;
-  width: 100%; height:100%;}
+  width: 100%; height:100%;
+}
 
 /* #playBox ================================== */
 #playBox {
   /*margin-top: 46.865614%;*/
   position: relative; z-index: -100;
-  width: 100%; height: 80%;}
+  width: 100%; height: 80%;
+}
 
   /* video 영역 ---- */
   #playBox > video {
@@ -19,7 +21,7 @@
     width: auto; height: auto;
     min-width:100%; min-height: 100%;
     transform: translate(-50%, -50%);
-    }
+  }
 
   /* banner 영역 ---- */
   .banner {
@@ -30,55 +32,83 @@
 
     /* slide */
     .slide_btn{
+      float: left;
       position: absolute; top: 50%; left: 0; 
       margin-top: -2rem;
-      width: 100%; height:0; float: left; }
-      .slide_btn > button {
-        cursor: pointer;
-        float: left;
-        width:4rem; height: 4em; color:#fff; background-color:rgba(10,10,10,0.7);
-      }
-      .slide_btn > button:last-of-type{float: right;}
+      width: 100%; height:0;
+    }
 
-        .slide_btn > .prev_btn:after{
+      .slide_btn > button {
+        float: left;
+        cursor: pointer;
+        width:4rem; height: 4rem;
+        background-color:rgba(10,10,10,0.7);
+        color:#fff;
+      }
+
+      .slide_btn > button:last-of-type {float: right;}
+
+        .slide_btn > .prev_btn:after {
           content:"<"; color:#fff; font-size: 3rem; font-weight: bold;
         }
-        .slide_btn > .next_btn:after{
+        .slide_btn > .next_btn:after {
           content:">"; color:#fff; font-size: 3rem; font-weight: bold;
         }
     
     /* indicator */
-      .btn{
-        position: absolute; bottom:1rem; right:1rem; z-index: 150;
+      .btn {
+        position: absolute; bottom:1rem; right:1rem;
+        z-index: 150;
         box-sizing:border-box; padding: 1rem 2rem;
-        width: auto; height:auto; background-color: #171717;
-        border-radius:3rem;}
-      .indicator{width: auto; height: auto; float:left;}
-      .indicator>li{
-        margin-right: 1rem; float: left;
-        box-sizing:border-box;
-        border:3px solid #fff;
-        width: 1.5rem; height: 1.5em; background-color:inherit;
-        border-radius:0.75rem;
-        }
-      .indicator>li:last-child{margin-right: 0;}
+        border-radius:3rem;
+        width: auto; height:auto;
+        background-color: #171717;
+      }
 
-      .indicator>li.active{background-color: #fff;}
+        .indicator {
+          float:left;
+          width: auto; height: auto;
+        }
+
+          .indicator > li {
+            float: left;
+            margin-right: 1rem;
+            box-sizing:border-box;
+            border:0.1875rem solid #fff;
+            border-radius:0.75rem;
+            width: 1.5rem; height: 1.5em;
+            background-color:inherit;
+            }
+          .indicator > li:last-child {margin-right: 0;}
+
+          .indicator > li.active{ background-color: #fff;}
     
     /* banner */
     .banner_box {
       overflow: hidden;
-      width: 100%; height: 100%;}
+      width: 100%; height: 100%;
+    }
 
-      .banner_wrap {width: calc(100% * 3); height: 100%;}
+      .banner_wrap {
+        width: -webkit-calc(100% * 3);
+        width: -moz-calc(100% * 3);
+        width: -ms-calc(100% * 3);
+        width: -o-calc(100% * 3);
+        width: calc(100% * 3);
+        height: 100%;
+      }
 
         .banner_wrap > div {
           float: left;
-          width: calc(100% / 3); height: 100%;
+          width: -webkit-calc(100% / 3);
+          width: -moz-calc(100% / 3);
+          width: -ms-calc(100% / 3);
+          width: -o-calc(100% / 3);
+          width: calc(100% / 3);
+          height: 100%;
           background-repeat: no-repeat;
           background-position: top;
           background-size: cover;
-
         }
 
         .banner_01 {

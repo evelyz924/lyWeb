@@ -1,8 +1,8 @@
 /* cjBox768.css */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 30.0625rem) and (max-width: 48rem) {
 
 /* #cjBox ==================================== */
-#cjBox {display: none;}
+#cjBox {height: 0; overflow: hidden;}
 
 }

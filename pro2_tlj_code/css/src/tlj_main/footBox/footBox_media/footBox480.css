@@ -1,11 +1,11 @@
 /* footBox480.css */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
 
 /* #footBox ================================== */
-#footBox {padding: 30px 0;}
+#footBox {padding: 1.875rem 0;}
 
-  .foot_wrap {width: 280px;}/* 최소 디바이스 280으로 맞추기 */
+  .foot_wrap {width: 17.5rem;}/* 최소 디바이스 280으로 맞추기 */
 
     /* fnb ----------- */
     .fnb > li {height: 0; overflow: hidden;}
@@ -16,6 +16,7 @@
     /* copyright ----------- */
     .copyright {
       text-align: center;
-      font-size: 12px;}
+      font-size: 0.75rem;
+    }
 
 }

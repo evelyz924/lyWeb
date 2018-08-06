@@ -1,9 +1,9 @@
 /* playBox768.css */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 30.0625rem) and (max-width: 48rem) {
 
 /* #playBox ================================== */
-#playBox {height: 400px; /* 352/768*100 */}
+#playBox {height: 25rem;}
 
   /* .add_banner 영역 ---- */
   .banner {display: block;}

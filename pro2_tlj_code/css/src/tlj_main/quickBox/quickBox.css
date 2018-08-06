@@ -8,31 +8,41 @@
     .quick_wrap > li {
       display: block;
       float: left;
-      width: calc(100% / 3); height: 100%;}
+      width: -webkit-calc(100% / 3);
+      width: -moz-calc(100% / 3);
+      width: -ms-calc(100% / 3);
+      width: -o-calc(100% / 3);
+      width: calc(100% / 3);
+      height: 100%;
+    }
 
-      .quick_wrap > li:last-child > a {background-position-y: -15px;}
+      .quick_wrap > li:last-child > a {background-position-y: -0.9375rem;}
 
       .quick_wrap > li > a {
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;}
+        background-size: cover;
+      }
 
       .q_location > a:hover,
       .q_location > a:focus {
-        background-image: url("../../../../img/tlj_main_web_img/quickBox/location.jpg");}
+        background-image: url("../../../../img/tlj_main_web_img/quickBox/location.jpg");
+      }
       .q_benefit > a:hover,
       .q_benefit > a:focus {
-        background-image: url("../../../../img/tlj_main_web_img/quickBox/benefit.jpg");}
+        background-image: url("../../../../img/tlj_main_web_img/quickBox/benefit.jpg");
+      }
       .q_franchise > a:hover,
       .q_franchise > a:focus {
-        background-image: url("../../../../img/tlj_main_web_img/quickBox/franchise.jpg");}
+        background-image: url("../../../../img/tlj_main_web_img/quickBox/franchise.jpg");
+      }
 
       #quickBox a {
         display: block;
         margin: auto;
         width: 100%; height: 100%;
-        line-height: 200px; text-align: center;
+        line-height: 12.5rem; text-align: center;
         font-size: 2.5rem; font-weight: bold; color: #fff;
-        text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+        text-shadow: 0 0.1875rem 0.625rem rgba(0,0,0,0.7);
         background-color: rgba(0,0,0,0.5);
         }
