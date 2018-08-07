@@ -41,4 +41,7 @@
 
           #gnb > ul > li > a {text-align: center;}
 
+            /* depth_2 ----- */
+                .depth_2 > li {margin-left: 40px;}
+
 }

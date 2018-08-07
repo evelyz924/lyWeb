@@ -46,7 +46,7 @@
 
   function SlideAni(i){
     var result = i * -100 + '%';
-    slideBanner.animate({marginLeft: result });
+    slideBanner.stop().animate({marginLeft: result });
       // removeClass, addClass
     indiLi.removeClass('active');
     indiLi.eq(i).addClass('active');
