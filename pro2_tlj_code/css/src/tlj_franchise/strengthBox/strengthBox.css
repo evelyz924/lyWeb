@@ -1,0 +1,55 @@
+/* strengthBox.css */
+
+/* #sttengthBox ================================== */
+#strengthBox {width: 100%; height: auto;}
+
+  #strengthBox > h3 {
+    text-align: center;
+    font-size: 2rem; color: #074c43;
+  }
+
+  .str_wrap {width: 100%; height: auto;}
+
+    /* str_top */
+    .str_top {width: 100%; height: 500px;}
+      .str_top > li {
+        float: left;
+        width: calc(100% / 2); height: 100%;
+      }
+
+        .str {
+          margin: auto;
+          width: 500px; height: 100%;
+        }
+          .str_img {
+            width: 100%; height: 270px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+          }
+          .str_img1 {background-image: url("../../../../img/tlj_franchise_web_img/strengthBox/str1.jpg");}
+          .str_img2 {background-image: url("../../../../img/tlj_franchise_web_img/strengthBox/str2.jpg");}
+          .str_img3 {background-image: url("../../../../img/tlj_franchise_web_img/strengthBox/str3.jpg");}
+          .str_img4 {background-image: url("../../../../img/tlj_franchise_web_img/strengthBox/str4.jpg");}
+
+          .str > dl {position: relative; width: 100%; height: 200px; background-color: #ccc;}
+
+            .str dt {
+              position: absolute; top: 0; left: 0;
+              margin-top: -40px;
+              width: 100px; height: 80px;
+              background-color: #fa0;
+              text-align: center;
+              text-transform: capitalize;
+            }
+
+              .str dd {text-align: justify;}
+
+
+    /* str_bottom */
+    .str_bottom {width: 100%; height: 500px;}
+
+      .str_bottom > li {
+        float: left;
+        width: calc(100% / 2); height: 100%;
+      }

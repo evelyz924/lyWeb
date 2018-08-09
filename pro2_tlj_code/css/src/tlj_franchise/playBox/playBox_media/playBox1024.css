@@ -1,0 +1,9 @@
+/* playBox1024.css */
+/* 동영상 재생 안함 사진 대체 */
+
+@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+
+/* #playBox ================================== */
+#playBox {height: 540px;}
+
+}

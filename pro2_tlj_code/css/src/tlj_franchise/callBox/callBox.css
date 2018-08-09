@@ -1,0 +1,40 @@
+/* callBox.css */
+
+/* #callBox ================================== */
+#callBox {width: 100%; height: 300px;}
+  
+  .call_wrap {width: 100%; height: 100%;}
+
+    /* call */
+    .call {
+      float: left;
+      width: calc(100% / 2); height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #f1e2b4;
+    }
+
+    .call1:hover,
+    .call1:focus {
+      background-image: url(../../../../img/tlj_franchise_web_img/callBox/call1.jpg);
+    }
+    .call1:hover,
+    .call1:focus .call2 {background-color: #f1e2b4;}
+
+    .call2:hover,
+    .call2:focus {
+      background-image: url(../../../../img/tlj_franchise_web_img/callBox/call2.jpg);
+    }
+    .call2:hover,
+    .call2:focus .call1 {background-color: #f1e2b4;}
+
+/*    .call2:hover,
+    .call2:focus a {background-color: rgba(7,76,67,0.9);}*/
+
+      .call > a {
+        display: block;
+        margin: auto;
+        width: 100%; height: 100%;
+        text-align: center;
+        
+      }

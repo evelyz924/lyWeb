@@ -48,16 +48,6 @@
       .slide_btn > button:last-of-type {float: right;}
 
         .slide_btn > button {font-size: 2.5rem; font-weight: bold;}
-/*        .slide_btn > .prev_btn:after {
-          content:"<";
-          color:#fff;
-          font-size: 3rem; font-weight: bold;
-        }
-        .slide_btn > .next_btn:after {
-          content:">";
-          color:#fff;
-          font-size: 3rem; font-weight: bold;
-        }*/
     
     /* indicator */
       .btn {

@@ -1,0 +1,52 @@
+/* snbBox1024.css */
+/* 동영상 재생 안함 사진 대체 */
+
+@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+
+/* #snbBox ================================== */
+#snbBox {
+  top: 540px;
+  height: 3.125rem;
+}
+
+  /* depth_3 */
+    .depth_3 {
+      margin-left: -20.497803vw; /* -280/1366*100 */
+      width: auto;
+    }
+
+        .depth_3 > ul > li {
+          margin-right: 4.392386vw; /* 60/1366*100 */
+          width: 100px;
+        }
+        .depth_3 > ul > li:nth-child(3) {width: 64px;}
+
+          .depth_3 > ul > li > a {
+            line-height: 3.125rem;
+            font-size: 0.9rem;
+          }
+
+  /* site_map */
+  .site_map {
+    margin-left: 2.196193vw; /* 30/1366*100 */
+    /*width: 10.375rem;*/
+    width: 180px;
+  }
+
+      .site_map > ul > li {
+        width: 40px; height: 100%;
+        margin-right: 10px;
+      }
+      .site_map > ul > li:nth-child(2) {width: 50px;}
+      .site_map > ul > li:last-child {
+        margin-right: 0;
+        width: 70px;
+      }
+
+        .site_map > ul > li > a {
+          line-height: 3.125rem;
+          font-size: 0.7rem;
+        }
+
+
+}

@@ -1,0 +1,13 @@
+/* snbBox1920.css */
+
+@media screen and (min-width: 85.4375rem) {
+
+  /* depth_3 */
+  .depth_3 {margin-left: -21.354166vw; /* -410/1920*100 */}
+
+    .depth_3 > ul > li {margin-right: 1.5625vw; /* 30/1920*100 */}
+
+  /* site_map */
+  .site_map {margin-left: 2.083333vw; /* 40/1920*100 */}
+
+}

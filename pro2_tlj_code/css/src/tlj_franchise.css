@@ -1,0 +1,106 @@
+/* tlj_franchise.css */
+
+@import url("./tlj_main/wrap/wrap.css");
+@import url("./tlj_main/wrap/wrap_media/wrap480.css");
+@import url("./tlj_main/wrap/wrap_media/wrap768.css");
+@import url("./tlj_main/wrap/wrap_media/wrap1024.css");
+@import url("./tlj_main/wrap/wrap_media/wrap1366.css");
+@import url("./tlj_main/wrap/wrap_media/wrap1920.css");
+
+@import url("./tlj_main/headBox/headBox.css");
+@import url("./tlj_main/headBox/headBox_media/headBox480.css");
+@import url("./tlj_main/headBox/headBox_media/headBox768.css");
+@import url("./tlj_main/headBox/headBox_media/headBox1024.css");
+@import url("./tlj_main/headBox/headBox_media/headBox1366.css");
+@import url("./tlj_main/headBox/headBox_media/headBox1920.css");
+
+@import url("./tlj_franchise/snbBox/snbBox.css");
+@import url("./tlj_franchise/snbBox/snbBox_media/snbBox480.css");
+@import url("./tlj_franchise/snbBox/snbBox_media/snbBox768.css");
+@import url("./tlj_franchise/snbBox/snbBox_media/snbBox1024.css");
+@import url("./tlj_franchise/snbBox/snbBox_media/snbBox1366.css");
+@import url("./tlj_franchise/snbBox/snbBox_media/snbBox1920.css");
+
+@import url("./tlj_franchise/playBox/playBox.css");
+@import url("./tlj_franchise/playBox/playBox_media/playBox480.css");
+@import url("./tlj_franchise/playBox/playBox_media/playBox768.css");
+@import url("./tlj_franchise/playBox/playBox_media/playBox1024.css");
+@import url("./tlj_franchise/playBox/playBox_media/playBox1366.css");
+@import url("./tlj_franchise/playBox/playBox_media/playBox1920.css");
+
+@import url("./tlj_franchise/stepBox/stepBox.css");
+@import url("./tlj_franchise/stepBox/stepBox_media/stepBox480.css");
+@import url("./tlj_franchise/stepBox/stepBox_media/stepBox768.css");
+@import url("./tlj_franchise/stepBox/stepBox_media/stepBox1024.css");
+@import url("./tlj_franchise/stepBox/stepBox_media/stepBox1366.css");
+@import url("./tlj_franchise/stepBox/stepBox_media/stepBox1920.css");
+
+@import url("./tlj_franchise/strengthBox/strengthBox.css");
+@import url("./tlj_franchise/strengthBox/strengthBox_media/strengthBox480.css");
+@import url("./tlj_franchise/strengthBox/strengthBox_media/strengthBox768.css");
+@import url("./tlj_franchise/strengthBox/strengthBox_media/strengthBox1024.css");
+@import url("./tlj_franchise/strengthBox/strengthBox_media/strengthBox1366.css");
+@import url("./tlj_franchise/strengthBox/strengthBox_media/strengthBox1920.css");
+
+@import url("./tlj_franchise/callBox/callBox.css");
+@import url("./tlj_franchise/callBox/callBox_media/callBox480.css");
+@import url("./tlj_franchise/callBox/callBox_media/callBox768.css");
+@import url("./tlj_franchise/callBox/callBox_media/callBox1024.css");
+@import url("./tlj_franchise/callBox/callBox_media/callBox1366.css");
+@import url("./tlj_franchise/callBox/callBox_media/callBox1920.css");
+
+@import url("./tlj_franchise/investBox/investBox.css");
+@import url("./tlj_franchise/investBox/investBox_media/investBox480.css");
+@import url("./tlj_franchise/investBox/investBox_media/investBox768.css");
+@import url("./tlj_franchise/investBox/investBox_media/investBox1024.css");
+@import url("./tlj_franchise/investBox/investBox_media/investBox1366.css");
+@import url("./tlj_franchise/investBox/investBox_media/investBox1920.css");
+
+@import url("./tlj_main/cjBox/cjBox.css");
+@import url("./tlj_main/cjBox/cjBox_media/cjBox480.css");
+@import url("./tlj_main/cjBox/cjBox_media/cjBox768.css");
+@import url("./tlj_main/cjBox/cjBox_media/cjBox1024.css");
+@import url("./tlj_main/cjBox/cjBox_media/cjBox1366.css");
+@import url("./tlj_main/cjBox/cjBox_media/cjBox1920.css");
+
+@import url("./tlj_main/footBox/footBox.css");
+@import url("./tlj_main/footBox/footBox_media/footBox480.css");
+@import url("./tlj_main/footBox/footBox_media/footBox768.css");
+@import url("./tlj_main/footBox/footBox_media/footBox1024.css");
+@import url("./tlj_main/footBox/footBox_media/footBox1366.css");
+@import url("./tlj_main/footBox/footBox_media/footBox1920.css");
+
+
+/* 0716_tlj_main.css */
+
+/** corol
+    #074c43
+    #ba835a
+    #f1e2b4
+    #f26a25
+    #ffffff
+    #cccccc
+    #333333
+    #2d2d2d
+*/
+
+/*
+  vw계산법: 사용할크기 / 기준(가로)크기 * 100
+  vh계산법: 사용할크기 / 기준(세로)크기 * 100
+
+  @media screen and (min-width: 1367px) and (max-width: 1920px) {}의 경우,
+  사용할크기 / 1920 * 100
+
+  @media screen and (min-width: 769px) and (max-width: 1366px) {}의 경우,
+  사용할크기 / 1366 *100
+*/
+
+
+
+
+
+
+
+
+
+

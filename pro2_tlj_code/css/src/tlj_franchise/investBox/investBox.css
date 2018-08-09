@@ -1,0 +1,14 @@
+/* investBox.css */
+
+/* #investBox ================================== */
+
+#investBox {width: 100%; height: auto;}
+
+    #investBox > h3 {
+      text-align: center;
+      font-size: 2rem; color: #074c43;
+    }
+    #investBox > p {
+      text-align: center;
+      color: #074c43;
+    }
