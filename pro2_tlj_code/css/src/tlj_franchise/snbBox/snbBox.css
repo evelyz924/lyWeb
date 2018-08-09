@@ -8,12 +8,16 @@
   background-color: rgba(44,44,44,0.75);
   /*background-color: rgba(55,41,25,0.75);*/
 }
+#snbBox.fixed {
+  position: fixed; top: 60px;
+  z-index: 500;
+  }
 
   /* depth_3 */
   .depth_3 {
     position: absolute; top: 0; left: 50%;
     margin-left: -25.625rem;
-    width: 51.875rem; height: 100%;
+    width: 830px; height: 100%;
   }
 
     .depth_3 > ul {width: 100%; height: 100%;}

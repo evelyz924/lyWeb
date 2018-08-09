@@ -1,0 +1,33 @@
+/* snbBox768.css */
+
+@media screen and (min-width: 30.0625rem) and (max-width: 48rem) {
+
+/* #snbBox ================================== */
+#snbBox {
+  top: 25rem;
+  height: 3.125rem;
+}
+#snbBox.fixed {top: 3.125rem;}
+
+  /* depth_3 */
+    .depth_3 {
+      margin-left: -200px;
+      width: 400px;
+    }
+
+        .depth_3 > ul > li {
+          margin-right: 20px;
+          width: 90px;
+        }
+        .depth_3 > ul > li:nth-child(3) {width: 60px;}
+        .depth_3 > ul > li:nth-child(4) {width: 100px;}
+
+          .depth_3 > ul > li > a {
+            line-height: 3.125rem;
+            font-size: 0.9rem;
+          }
+
+  /* site_map */
+  .site_map {width: 0; height: 0; overflow: hidden;}
+
+}
