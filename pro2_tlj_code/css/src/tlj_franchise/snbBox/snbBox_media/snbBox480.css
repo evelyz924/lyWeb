@@ -13,7 +13,7 @@
     .depth_3 {
       position: static;
       margin: auto;
-      width: 280px;
+      width: 286px; /* 286/480*100 */
       height: 100%;
     }
 
@@ -22,7 +22,7 @@
       }*/
 
         .depth_3 > ul > li {
-          margin-right: 6px;
+          margin-right: 8px; /* 8/480*100 */
           width: 70px;
         }
         .depth_3 > ul > li:nth-child(2) {width: 68px;}
