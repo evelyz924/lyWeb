@@ -2,31 +2,22 @@
 
 (function($) {
 
-  // 좌/우 버튼을 변수화
- var slideBtn = $('.slide_btn');
- var prevBtn  = slideBtn.children('.prev_btn');
- var nextBtn  = slideBtn.children('.next_btn');
+  var slideBtn = $('.slide_btn');
+  var prevBtn  = slideBtn.children('.prev_btn');
+  var nextBtn  = slideBtn.children('.next_btn');
+ 
+  var indicator = $('.indicator');
+  var indiLi    = indicator.children('li');
+ 
+  var slideBanner = $('.banner_wrap');
 
- // indicator버튼 변수화
- var indicator = $('.indicator');
- var indiLi    = indicator.children('li');
+  var timed = 600;
 
- // 광고배너영역 변수화
- var slideBanner = $('.banner_wrap');
+  // 광고배너 갯수체크하기(-1)
+  var bannerLength = slideBanner.children('div').length -1;
 
- // 광고배너 갯수체크하기(-1)
- var bannerLength = slideBanner.children('div').length -1;
- // console.log(bannerLength);
-
- // 최초의 값 0 
- var i = 0;
-
-  // nextBtn을 클릭시
-  nextBtn.on('click',function(e){
-    e.preventDefault();
-    if(i < bannerLength){  i += 1;  } else {  i = 0; }
-    SlideAni(i);
-  });
+  // 최초의 값 0 
+  var i = 0;
 
   // prevBtn 클릭시
   prevBtn.on('click',function(e){
@@ -35,6 +26,12 @@
     SlideAni(i);
   });
 
+  // nextBtn을 클릭시
+  nextBtn.on('click',function(e){
+    e.preventDefault();
+    if(i < bannerLength){  i += 1;  } else {  i = 0; }
+    SlideAni(i);
+  });
 
   // indiLi 클릭
   indiLi.on('click',function(e){
@@ -43,16 +40,17 @@
     SlideAni(i);
   });
 
-
   function SlideAni(i){
     var result = i * -100 + '%';
-    slideBanner.stop().animate({marginLeft: result });
-      // removeClass, addClass
+    slideBanner.stop().animate({marginLeft: result}, timed);
     indiLi.removeClass('active');
     indiLi.eq(i).addClass('active');
   }
 
-
+  // 자동 슬라이드
+  setInterval(function(){
+    nextBtn.trigger('click');
+  },2000);
 
 
 
